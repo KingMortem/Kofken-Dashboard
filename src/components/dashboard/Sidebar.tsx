@@ -76,9 +76,7 @@ export default function Sidebar({ isOpen, setIsOpen }: SidebarProps) {
               <Croissant className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-lg font-semibold text-crust-800">
-                Golden Crust
-              </h1>
+              <h1 className="text-lg font-semibold text-crust-800">Kofken</h1>
               <p className="text-sm text-crust-600">Bakery Dashboard</p>
             </div>
           </div>
