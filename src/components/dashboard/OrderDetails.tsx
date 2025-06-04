@@ -189,23 +189,13 @@ export default function OrderDetails() {
               </CardHeader>
 
               <CardContent className="space-y-4">
-                {/* Customer Info */}
+                {/* Baker Info */}
                 <div className="space-y-2">
-                  <h4 className="font-semibold text-crust-800">
+                  <h5 className="text-lg font-medium text-crust-800">Baker:</h5>
+                  <h4 className="text-sm font-semibold text-crust-800">
                     {order.customerName}
                   </h4>
-                  <div className="space-y-1 text-sm text-crust-600">
-                    <div className="flex items-center space-x-2">
-                      <Phone className="h-4 w-4" />
-                      <span>{order.customerPhone}</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <MapPin className="h-4 w-4" />
-                      <span>{order.customerAddress}</span>
-                    </div>
-                  </div>
                 </div>
-
                 <Separator className="bg-wheat-200" />
 
                 {/* Order Items */}
